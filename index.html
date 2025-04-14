@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Linking Google fonts for icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=arrow_forward" />
+    <link rel="stylesheet" href="style.css">
+    <!-- linking SwipperJS CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <title>portfolio</title>
+</head>
+<body>
+    <section class="welcome">
+        <div class="div1">I Extends you</div>
+        <div class="div2">warm Welcome to</div>
+        <div class="div3">Explore My Portfolio</div>
+        
+    </section>
+    <nav class="sticky-nav">
+    
+
+            <ul class="sidebar nav-links">
+            <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+            <li onclick=hideSidebar()><a href="#Aboutme">About</a></li>
+            <!-- <li onclick=hideSidebar()><a href="#skills" >Experience</a></li> -->
+            <li onclick=hideSidebar()><a href="#Projects" >Projects</a></li>
+            <li onclick=hideSidebar()><a href="#contactme" >Contact Me</a></li>
+            <li onclick=hideSidebar()><a href="#footer" >Footer</a></li>
+
+        </ul> 
+        <ul >
+           
+            <li><a href="#">Portfolio</a></li>
+            <li class="hideOnMobile"><a href="#Aboutme">About</a></li>
+            <!-- <li class="hideOnMobile"><a href="#skills" >Experience</a></li> -->
+            <li class="hideOnMobile"><a href="#Projects" >Projects</a></li>
+            <li class="hideOnMobile"><a href="#contactme" >Contact Me</a></li>
+            <li class="hideOnMobile"><a href="#footer" >Footer</a></li>
+            <li class="menu-button" onclick=showSidebar()><a href="#" ><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26" fill="#5f6368"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+
+        </ul> 
+
+        <section class="mode">
+            <svg
+            id="darkMode";
+             width="56" 
+             height="56" 
+             viewBox="0 0 56 56" 
+             fill="none" 
+             xmlns="http://www.w3.org/2000/svg">
+    
+                <path 
+                class="sun"
+                d="M56 28C56 43.464 43.464 56 28 56C12.536 56 0 43.464 0 28C0 12.536 12.536 0 28 0C43.464 0 56 12.536 56 28Z" fill="#EBAD48"/>
+                </svg>
+           </section>
+           
+    </nav>
+    <main>
+        <section id="home">
+            
+            <div class="heading">
+            <p>Design Digital <br> Experiences That Inspire !</p>
+            </div>
+        <div class="card">
+        <div id="image">
+            <img src="myphoto3.jpg" alt="photo">
+        </div>
+        <div class="content">
+            <h3>Hey! I’m</h3>
+            <h1>Utsav</h1>
+            <h3>a distinguished full stack web developer</h3>
+           
+        </div>
+        <div class="icon">
+            
+            <a href="https://www.linkedin.com/in/utsav-kumar-879938299/"> <img src="linkdin.png" alt="linkdin"></a>
+             <a href="https://github.com/utsav-kumar-droid"><img src="github.png" alt="github"></a>
+            <a href="./myresume.pdf"  download> <img src="resume.png" alt="resume"></a>
+             </div>
+        
+    </div>
+    <div class="connect">
+        <p class="message">Interested in working together?<br>Let's talk</p>
+        <p class="email">uku6396@gmail.com</p>
+
+        <div class="location-mobile">
+            <img src="location.png" alt="Location Icon">
+            <p>Vidisha, MP</p>
+          </div>
+    </div>
+    <div class=" location">
+     <img src="location.png" alt="">
+     <p>Vidisha,MP</p>
+    </div>
+     
+</section>
+<section id="Aboutme">
+<div class="about">
+    <h1>ABOUT</h1>
+    <div class="skill" id="skill">
+    <div class="skillblock" >
+        <h1>Skills</h1>
+        <div class="skillcon">
+        <img src="html.png" alt="html">
+        <img src="css.png" alt="css">
+        <img src="javascript.png" alt="javascript">
+        <img src="react.png" alt="react">
+        <img src="nodejs.png" alt="nodejs">
+        <img src="database.png" alt="database">
+        <img src="blockchain.png" alt="blockchain">
+        <img src="machinelearning.png" alt="machinelearning">
+
+        </div>
+  
+
+    </div>
+</div>
+<div class="detail">
+    <div class="edu">
+        <div class="educon"><h1>Education</h1>
+        <p>
+            <h4>Samrat Ashok Technological Institute, Vidisha</h4>
+            Bachelor of Technology (B.Tech) | Ongoing <br>
+            (Expected Year of Graduation: [2027])  <br><br>
+          <h4>DAV Senior Secondary Public School </h4>  
+           Class 12 (Intermediate): Achieved 90%  <br>
+           Class 10: Achieved 93%
+
+        </p>
+        
+        </div>
+    </div>
+    <div class="interest">
+       <div class="intcon"> <h1>Interest</h1>
+    <p>Passionate about full-stack web development and emerging technologies. Enthusiastic learner with a strong interest in: <br>
+        Frontend Development: HTML, CSS, JavaScript, Tailwind CSS, React.js <br>
+        Backend Development: Node.js, Express.js   <br>
+        Emerging Technologies: Blockchain, Machine Learning</p>   <br>
+    
+    
+    </div>
+    </div>
+
+</div>
+</div>
+
+</section>
+<section id="Projects">
+    
+    <div class="container swiper">
+        <h1>Projects</h1>
+     <div class="card-wrapper">
+        <ul class="card-list swiper-wrapper">
+            <li class="card-item swiper-slide">
+                <a href="https://67f943d9441a180b5e2d7145--dainty-puffpuff-c7a92a.netlify.app/" class="card-link">
+                  <img src="githubviewer.png" alt="" class="card-image">  
+                  <p class="badge designer">HTML CSS JavaScript</p>
+                  <h2 class="card-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, ullam.</h2>
+                <button class="card-button material-symbols-outlined">
+                    arrow_forward
+                    </button>
+                </a>
+            </li>
+            <li class="card-item swiper-slide">
+                <a href="https://67eea9d5b6033ec47d7eec9b--jocular-croissant-ddbf5c.netlify.app/" class="card-link">
+                  <img src="blueblack.png" alt="" class="card-image">  
+                  <p class="badge designer">HTML CSS JavaScript</p>
+                  <h2 class="card-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, ullam.</h2>
+                <button class="card-button material-symbols-outlined">
+                    arrow_forward
+                    </button>
+                </a>
+            </li>
+
+       
+
+            <li class="card-item swiper-slide">
+                <a href="https://6718ce797ebda3a6826d8139--cool-puppy-0cd288.netlify.app/" class="card-link">
+                  <img src="portfolio.png" alt="" class="card-image">  
+                  <p class="badge marketer">HTML CSS JavaScript</p>
+                  <h2 class="card-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, ullam.</h2>
+                <button class="card-button material-symbols-outlined">
+                    arrow_forward
+                    </button>
+                </a>
+            </li>
+
+            <li class="card-item swiper-slide">
+                <a href="https://673c1c53371375b9662ed239--roaring-cajeta-1f0721.netlify.app/" class="card-link">
+                  <img src="solarsystem.png" alt="" class="card-image">  
+                  <p class="badge gamer">HTML CSS JavaScript</p>
+                  <h2 class="card-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, ullam.</h2>
+                <button class="card-button material-symbols-outlined">
+                    arrow_forward
+                    </button>
+                </a>
+            </li>
+
+            <li class="card-item swiper-slide">
+                <a href="https://677bc7d8053c2bf25dd66eb1--neon-granita-10cad2.netlify.app/" class="card-link">
+                  <img src="cricquiz.png" alt="" class="card-image">  
+                  <p class="badge editor">HTML CSS JavaScript</p>
+                  <h2 class="card-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, ullam.</h2>
+                <button class="card-button material-symbols-outlined">
+                    arrow_forward
+                    </button>
+                </a>
+            </li>
+
+        </ul>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+     </div>
+    </div>
+</div>
+
+</section>
+
+
+<section id="contactme">
+    <div class="container1">
+        <form  onsubmit="sendEmail(); reset(); return false;">
+            <h3>GET IN TOUCH</h3>
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Email id" required>
+            <textarea id="message" rows="10" placeholder="How can we help you"></textarea>
+            <button type="submit">Send</button>
+            
+            
+        </form>
+    </div>
+</section>
+  
+
+</section>
+
+    </main>
+    <section id="footer">
+        <footer class="footer">
+            <a href="#" class="back-option">Back to top</a>
+            <div class="footer-mess">
+             <div class="div4">Thank you for visiting my Portfolio </div>
+             <div class="div5">I appreciate your time and interest in my work. I am eager to contribute my skills and grow professionally.
+            </div>
+             <div class="div6"> Please feel free to reach out for potential opportunities or inquiries.</div>
+            </div>
+            <div class="policies">
+                <p>© Copyright, all rights reserved</p>
+            </div>
+        </footer></section>
+    
+
+   <script>
+    const original=document.querySelector('.skillcon').cloneNode(true);
+    const clone=original.cloneNode(true);
+    document.querySelector(".skillblock").appendChild(clone);
+
+   </script>
+    
+    <!-- linking swipperjs script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script>
+        function  showSidebar(){
+            const sidebar = document.querySelector('.sidebar');
+            sidebar.style.display ='flex'
+        }
+        function  hideSidebar(){
+            const sidebar = document.querySelector('.sidebar');
+            sidebar.style.display ='none'
+        }
+    </script>
+    <script src="script.js"></script>
+
+</body>
+</html>
